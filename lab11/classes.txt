@@ -1,0 +1,47 @@
+Question 11.1 In the Die class definition, how can you identify the class constructor?
+	
+	- Class constructors are always marked with "__init__(self)"
+
+
+Question 11.2 Assuming the class has been imported into your program, give the statement to
+create a Die object that is assigned to the variable myDie.
+	
+	- myDie = Die()
+
+
+Question 11.3 Do the objects created from the class contain one or more instance variable(s)? If
+so, give the name of the instance variable(s).
+	
+	- The Die class has the instance variable "_faceValue"
+
+
+Question 11.4 Are Die objects mutable or immutable. If they are mutable, identify a method that
+modifies an object.
+	
+	- Mutable, the roll method changes the "_faceValue" instance variable.
+
+
+Question 11.5 Identify one accessor method and one mutator method in the Die class.
+
+	- "getValue" method accesses the instance variable "_faceValue"
+	- "roll" method mutates the instance variable "_faceValue"
+
+
+Question 11.6 Identify one local variable (other than self) used in the Die class.
+
+	- "newValue" is used inside the "roll" method
+
+
+Question 11.7 Suppose you wanted to add another method called reset that sets the die back to
+the value 1. What would that method look like? [Do not actually add this method to the class]
+
+	"
+	def reset(self):
+		self._faceValue = 1	
+	"
+
+
+
+
+
+
